@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 60px;
+    font-family: 'Open Sans', sans-serif;
+    background: url("alex-beholder-YZ6NDPzre3M-unsplash.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 95vh;
+    color: #161f2e;
+    align-items: center;
+}
+
+.countdown-container{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.countdown-container > div {
+    color: #910303;
+    width: 20%;
+    /* background-color: pink; */
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.big-text{
+    font-size: 4rem;
+}
+
+
+
+/* circle animation */
+
+.base-timer {
+    position: relative;
+    height: 300px;
+    width: 300px;
+  }
+  
+  /* Removes SVG styling that would hide the time label */
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+  
+  /* The SVG path that displays the timer's progress */
+  .base-timer__path-elapsed {
+    stroke-width: 1px;
+    stroke: grey;
+    fill: none;
+  }
